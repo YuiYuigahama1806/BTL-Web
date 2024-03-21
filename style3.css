@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    background-color: white;
+}
+.logo{
+    width: 188px;
+    height: 60px;
+    object-fit: cover;
+}
+button a{
+    font-size: 21px;
+    color: black;
+}
+button a i{
+    padding: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    border-bottom: 1px solid red;
+}
+nav ul li a {
+    color: rgb(51,51,51) 
+}
+header button{
+    font-size: 21px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.carousel-item img {
+    width: 100%; 
+    height: 750px; 
+    object-fit: cover; 
+}
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+.product-image{
+    float: left;
+}
+.product-image img{
+    width: 400px;
+    height: 400px;
+}
+.product-details{
+    float: right;
+    padding-right: 200px;
+}
+.product-description{
+    text-align: center;
+    margin-right: 100px;
+    padding-right: 500px;
+    
+}
+.mota h3{
+    text-align: center;  
+    padding-top: 50px; 
+}
+.mota p{
+    padding-top: 10px;
+    text-align: left;
+    background-color: rgb(23,23,23);
+    color: rgb(180,148,94);
+}
+.buy-btn:hover {
+    background-color: #0056b3;
+}
+
+.buy-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: #111;
+    margin-top: 50px;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 60%;
+}
+.socialIcons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    background-color: white;
+    transition: 0.5s;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footerNav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center
+    
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+
+
+
+
+
+
